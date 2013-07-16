@@ -35,6 +35,7 @@ end
 group :development, :test do
   gem 'sqlite3'
   gem 'rspec-rails', '2.11.0'
+  gem 'pg'
 end
 
 # Gems used only for assets and not required
@@ -52,7 +53,7 @@ group :test do
 end
 
 group :production do
-  gem 'pg', '0.12.2'
+  gem 'pg'
 end
 
 # Use ActiveModel has_secure_password
