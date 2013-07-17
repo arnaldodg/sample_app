@@ -49,11 +49,13 @@ end
 #gem 'jquery-rails', '2.0.2'
 
 group :test do
+	gem 'selenium-webdriver'
   gem 'capybara', '1.1.2'
 end
 
 group :production do
   gem 'pg'
+  gem 'rails_12factor', '0.0.2'
 end
 
 # Use ActiveModel has_secure_password
