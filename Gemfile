@@ -36,6 +36,9 @@ gem 'coffee-rails', '~> 4.0.0'
 gem 'uglifier', '>= 1.3.0'
 gem 'twitter-bootstrap-rails'
 
+gem 'will_paginate', '~> 3.0.4'
+gem 'bootstrap-will_paginate', '0.0.9'
+
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
   gem 'sdoc', require: false
