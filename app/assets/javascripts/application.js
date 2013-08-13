@@ -14,5 +14,8 @@
 //= require jquery_ujs
 //= require twitter/bootstrap
 //= require bootstrap
+jQuery( function($) {
+    $('a').tooltip();
+});
 //= require turbolinks
 //= require_tree .
